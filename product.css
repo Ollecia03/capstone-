@@ -1,0 +1,159 @@
+body {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #c264ff;
+}
+
+nav {
+	display: 0;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 10000px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #eacaff;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	
+}
+
+nav li {
+	margin-right: 20px;
+	
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a{
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #ffc0cb;
+}
+
+.banner {
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.search-box{
+	float: right;
+	display:inline
+	margin  10px 5px;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product-image {
+  flex-basis: 20%;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-image img {
+  max-width: 20%;
+  height: 10;
+  width: 20%;
+}
+
+.product-info {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+.product-info h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+.columns {
+	display:flex;
+}
+.columns-desktop {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.beauty {
+	width: 350px;
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+/*.beauty img {
+	width: 200%;
+*/
+.beauty .title{
+	font-weight: b;
+}
+.beauty .columns{
+	width: 100%;
+}
+.beauty .price{
+	text-align: right;
+}
+
+.beauty .columns div{
+	width: 50%;
+}
+.beauty button {
+	background-color: #eacaff;
+	color: #fff;
+	padding: 10px;
+	border: solid 1px #eacaff;
+	border-radius: 3px;
+	
+}
+.m-4 .p{
+text-align: right;
+float: right;
+}

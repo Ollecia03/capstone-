@@ -1,0 +1,123 @@
+/* Styles for the container */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+body{
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+/* Styles for the form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the form labels */
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Styles for the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+  background-color: #eacaff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Styles for the submit button when disabled */
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styles for the error messages */
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+/* Styles for the "How did you hear about us?" dropdown button */
+select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  font-size: 0.9rem;
+  font-family: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z'/%3E%3Cpath d='M0-.75h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+}
+
+/* Styles for the "How did you hear about us?" dropdown button when it's focused or hovered */
+select:focus,
+select:hover {
+  border-color: #eacaff;
+  outline: none;
+}
+
+/* Styles for the "How did you hear about us?" dropdown button options */
+select option {
+  color: #333;
+  background-color: #fff;
+  padding: 12px;
+}
+
+/* Styles for the "How did you hear about us?" dropdown button arrow icon when it's open */
+select:active,
+select:focus,
+select:hover {
+  background-position: right 5px center;
+}
+
+
+button {
+  background-color: #eacaff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eacaff;
+}
+

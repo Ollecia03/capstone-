@@ -1,0 +1,107 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image:url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+/*.login-box {
+	background-color: #fff;
+	max-width: 500px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #aaa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}*/
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 40px 30px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+  }
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+input[type="Username"],
+input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #fff; 
+	
+}
+
+input[type="submit"] {
+	background-color: #eacaff;
+	color: #fff;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #fff; 
+}
+
+input[type="submit"] {
+	background-color: #eacaff;
+}
+
+p {
+	text-align: center;
+	font-size: 0.9rem;
+  font-family: inherit;
+}
+
+/*.next-page-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}*/
+
+
+button{
+	background-color: #eacaff;
+	color: #fff;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	text-decoration: none;
+	
+  }
+  button:hover {
+	background-color: #ccc;
+
+  }
